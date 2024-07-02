@@ -1,0 +1,18 @@
+
+public class SafeHouse extends NormalLoc {
+
+	SafeHouse(Player player) {
+		super(player,"Guvenli ev");
+		
+	}
+public boolean getLocation() {
+	
+	
+System.out.println("Iyilestiniz");
+System.out.println("Suan guvenli evdesiniz");
+player.setrHealty(player.getrHealty());
+
+return true;
+}
+
+}
